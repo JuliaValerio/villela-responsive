@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/banner_briviadez.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header div {
+  position: absolute;
+  right: 3em;
+}
+header div a {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 1em;
+  font-family: "Noticia Text";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header div a img {
+  margin-left: 1em;
+}
+header div :hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+main {
+  width: 100vw;
+}
+main .content {
+  margin: 0 auto;
+  width: 70vw;
+  padding: 5em 0;
+}
+main .content article {
+  width: 65vw;
+}
+main .content article h1 {
+  width: 18em;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+main .content article h2 {
+  font-family: "Noticia Text";
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+main .content article .text {
+  width: 42em;
+  position: relative;
+  left: 5em;
+}
+main .content article p {
+  font-family: "Noticia Text";
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 27px;
+  margin: 1em 0;
+  width: 70vw;
+}
+main .content:nth-child(2) {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
+}
+main .content-image {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/banner_briviadez_sede.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../images/bg-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer div a {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 1em;
+  font-family: "Noticia Text";
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+footer div a img {
+  margin-left: 1em;
+}
+footer div :hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .text {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .text {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .text {
+    left: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
